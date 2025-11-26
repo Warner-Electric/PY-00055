@@ -22,6 +22,27 @@ This Python program provides an interactive GUI to visualize the time-domain res
     $\[
     f_0 = \frac{1}{2\pi\sqrt{LC}}
     \]$
+What it means:
+f₀ is the natural frequency at which the circuit would oscillate if there were no resistance (ideal LC circuit).
+High f₀ (small L or C):
+
+Faster oscillations.
+
+
+Low f₀ (large L or C):
+
+Slower oscillations.
+
+Interpretation in the plot:
+
+f₀ is not directly the input frequency (f), but it tells you where resonance occurs.
+If the input frequency f ≈ f₀, the circuit would normally exhibit maximum amplitude (in a lightly damped system).
+
+
+Practical Insight
+
+α controls energy dissipation (how fast the system loses energy).
+f₀ controls natural oscillation speed (how fast the system would oscillate without damping).    
 
 ---
 
